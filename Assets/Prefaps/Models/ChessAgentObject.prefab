@@ -1,0 +1,199 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &57733054533209922
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8129465629833148029}
+  - component: {fileID: 5731388186270947228}
+  - component: {fileID: 968193207644301593}
+  - component: {fileID: 4018781660129756659}
+  m_Layer: 0
+  m_Name: ChessAgentObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8129465629833148029
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 57733054533209922}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.00898, y: 2.20108, z: 0.03313}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5731388186270947228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 57733054533209922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.ML-Agents::Unity.MLAgents.Policies.BehaviorParameters
+  m_BrainParameters:
+    VectorObservationSize: 986
+    NumStackedVectorObservations: 1
+    m_ActionSpec:
+      m_NumContinuousActions: 0
+      BranchSizes: 24130000
+    VectorActionSize: 24130000
+    VectorActionDescriptions: []
+    VectorActionSpaceType: 0
+    hasUpgradedBrainParametersWithActionSpec: 1
+  m_Model: {fileID: 0}
+  m_InferenceDevice: 0
+  m_BehaviorType: 0
+  m_BehaviorName: ChessBrain
+  TeamId: 0
+  m_UseChildSensors: 1
+  m_UseChildActuators: 1
+  m_DeterministicInference: 0
+  m_ObservableAttributeHandling: 0
+--- !u!114 &968193207644301593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 57733054533209922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae6cb932f3435fb4cb8390e99fe01cec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChessAgent
+  agentParameters:
+    maxStep: 0
+  hasUpgradedFromAgentParameters: 1
+  MaxStep: 0
+  agentPlayer: 1
+  resetBoardOnlyForWhiteAgent: 1
+  invalidMoveReward: -0.05
+  legalMoveReward: 0.0002
+  captureRewardScale: 0.002
+  lossReward: -1
+  normalDrawReward: 0
+  maxPlyDrawReward: -0.25
+  perPlyPenalty: -0.0015
+  trainingMaxGamePlies: 500
+  logDrawDiagnostics: 1
+  pawnValue: 1
+  knightValue: 4.25
+  bishopValue: 4.5
+  rookValue: 7
+  queenValue: 12.5
+  kingValue: 100
+  evaluationRewardScale: 0.00004
+  strategicRewardPerComponentCap: 0.05
+  shapingRewardEpisodeCap: 0.5
+  materialDeltaRewardScale: 0.01
+  materialLossRewardCap: 0.08
+  materialGainRewardCap: 0.06
+  exposedPiecePenaltyScale: 0.015
+  exposedPiecePenaltyCap: 0.08
+  repetitionPenaltySecondOccurrence: 0.005
+  repetitionPenaltyThirdOccurrence: 0.01
+  repetitionPenaltyFourthOccurrence: 0.015
+  immediateReversePenalty: 0.005
+  noProgressGraceMoves: 8
+  noProgressPenaltyPerMove: 0.002
+  noProgressPenaltyCap: 0.02
+  progressEvaluationThreshold: 2
+  endgameOpponentNonKingThreshold: 4
+  endgameMaterialLeadThreshold: 2.5
+  endgameKingPressurePerMove: 0.01
+  endgameKingActivityPerMove: 0.003
+  endgameCaptureBonus: 0.008
+  endgamePawnAdvanceReward: 0.012
+  endgamePawnNearPromotionReward: 0.018
+  endgamePassedPawnReward: 0.012
+  endgameProtectedPawnReward: 0.01
+  endgamePawnBlockerCaptureBonus: 0.014
+  endgameQuietPawnFailurePenalty: 0.006
+  endgameMajorPieceActionReward: 0.006
+  endgameMajorPieceCheckBonus: 0.012
+  endgameMajorPieceCaptureBonus: 0.01
+  endgameMajorPiecePressureBonus: 0.008
+  endgameLowerPriorityMovePenalty: 0.004
+  endgameKingSupportReward: 0.012
+  endgameKingWanderingPenalty: 0.02
+  queenSurvivesReplyBonus: 0.012
+  endgameNoProgressGraceMoves: 3
+  endgameNoProgressPenaltyPerMove: 0.004
+  endgameNoProgressPenaltyCap: 0.04
+  hangingPiecePenaltyScale: 0.035
+  hangingPiecePenaltyCap: 0.12
+  kingApproachRewardPerStep: 0.01
+  kingTrapRewardAtOneMove: 0.025
+  shafranLongPawnMoveReward: 0.004
+  shafranMiddlegamePawnBreakReward: 0.006
+  endgameDynamicPlyPenaltyMultiplier: 1.75
+  conversionLeadThreshold: 2.5
+  conversionLeadStrongThreshold: 5
+  knightDevelopmentReward: 0.012
+  bishopDevelopmentReward: 0.012
+  earlyRookMovePenalty: 0.01
+  earlyQueenMovePenalty: 0.015
+  centerControlRewardPerCell: 0.003
+  positionDeltaRewardScale: 0.008
+  kingPressurePerMove: 0.003
+  kingIntrusionRewardScale: 0.006
+  defensiveRetreatReward: 0.008
+  checkReward: 0.015
+  promotionReward: 0.12
+  castlingReward: 0.004
+  majorCaptureTacticalReward: 0.008
+  minorCaptureTacticalReward: 0.004
+  pawnCaptureTacticalReward: 0.001
+  queenLossPenalty: 0.18
+  queenHangingPenalty: 0.1
+  majorPieceLossPenalty: 0.06
+  logQueenDiagnostics: 1
+  v10MobilityReductionSmall: 0.003
+  v10MobilityReductionMedium: 0.008
+  v10MobilityReductionStrong: 0.012
+  v10MobilityReductionCritical: 0.02
+  v10KingOneEscapeBonus: 0.02
+  v10CheckBonus: 0.015
+  v10MateThreatBonus: 0.035
+  v10ForcingCaptureBonus: 0.008
+  v10BishopColorBonus: 0.01
+  v10ThreeColorBishopBonus: 0.015
+  enableMinimaxGuidance: 0
+  minimaxD1Frequency: 2
+  minimaxD2Frequency: 8
+  minimaxGuidanceNearBestThreshold: 50
+  minimaxGuidanceBadThreshold: 200
+  minimaxGuidanceExactReward: 0.015
+  minimaxGuidanceNearBestReward: 0.006
+  minimaxGuidancePenalty: 0.025
+--- !u!114 &4018781660129756659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 57733054533209922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a5c9d521e5ef4759a8246a07d52221e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.ML-Agents::Unity.MLAgents.DecisionRequester
+  DecisionPeriod: 5
+  DecisionStep: 0
+  TakeActionsBetweenDecisions: 1

@@ -1,0 +1,118 @@
+﻿
+==================================================
+AI BENCHMARK 7.7
+MOVE QUALITY + STABILITY
+==================================================
+Positions Tested       : 20
+Depths Tested           : D2 D3 D4
+Experimental Control    : Same Position + Same Side + Same Hardware
+Search Configuration    : + HISTORY + KILLER + TT + ASPIRATION
+History Heuristic       : ENABLED
+Killer Move Heuristic   : ENABLED
+Transposition Table     : ENABLED
+Aspiration Window       : ENABLED
+==================================================
+7.7 HARDWARE / RUNTIME CONTROL
+Device Model            : HP Laptop 15-fd0xxx (HP)
+CPU                     : 13th Gen Intel(R) Core(TM) i7-1355U
+CPU Cores               : 12
+System Memory           : 16027 MB
+GPU                     : Intel(R) Iris(R) Xe Graphics
+Operating System        : Windows 11  (10.0.26200)
+Unity Version           : 6000.5.9f1
+
+================ 7.7 SEARCH STABILITY ================
+
+DEPTH 2
+Samples                  : 20
+Mean Best Score          : 183.25
+Std Dev Best Score       : 494.39
+95% CI Best Score        : ±231.38
+Mean Nodes               : 1788.55
+Std Dev Nodes            : 873.68
+95% CI Nodes             : ±408.89
+Mean Search Time         : 0.081543s
+Std Dev Search Time      : 0.038076s
+95% CI Search Time       : ±0.017820s
+Aggregate NPS            : 21934
+Mean PV Length           : 2.00
+PV Completeness          : 100.00%
+
+DEPTH 3
+Samples                  : 20
+Mean Best Score          : 294.14
+Std Dev Best Score       : 541.17
+95% CI Best Score        : ±253.27
+Mean Nodes               : 10333.00
+Std Dev Nodes            : 3613.71
+95% CI Nodes             : ±1691.25
+Mean Search Time         : 0.392168s
+Std Dev Search Time      : 0.236558s
+95% CI Search Time       : ±0.110711s
+Aggregate NPS            : 26348
+Mean PV Length           : 3.00
+PV Completeness          : 100.00%
+
+DEPTH 4
+Samples                  : 20
+Mean Best Score          : 196.97
+Std Dev Best Score       : 478.75
+95% CI Best Score        : ±224.06
+Mean Nodes               : 49210.55
+Std Dev Nodes            : 35858.52
+95% CI Nodes             : ±16782.11
+Mean Search Time         : 2.212707s
+Std Dev Search Time      : 1.742519s
+95% CI Search Time       : ±0.815514s
+Aggregate NPS            : 22240
+Mean PV Length           : 4.00
+PV Completeness          : 100.00%
+
+================ 7.7 MOVE QUALITY ================
+
+DEPTH 2 VS DEPTH 3
+Comparisons               : 20
+Same Best Move            : 14
+Different Best Move       : 6
+Move Agreement Rate       : 70.00%
+Mean Score Difference     : 110.88
+Mean Absolute Score Diff  : 118.65
+Score Difference Std Dev  : 124.74
+Mean PV Agreement         : 38.33%
+PV Agreement Std Dev      : 29.17%
+
+DEPTH 3 VS DEPTH 4
+Comparisons               : 20
+Same Best Move            : 12
+Different Best Move       : 8
+Move Agreement Rate       : 60.00%
+Mean Score Difference     : -97.17
+Mean Absolute Score Diff  : 136.12
+Score Difference Std Dev  : 146.23
+Mean PV Agreement         : 25.00%
+PV Agreement Std Dev      : 26.90%
+
+================ 7.7 OVERALL MOVE AGREEMENT ================
+Total Move Comparisons   : 40
+Same Best Move           : 26
+Different Best Move      : 14
+Overall Move Agreement   : 65.00%
+Overall PV Agreement     : 31.67%
+
+================ 7.7 CONTROL VALIDATION ================
+Same Position            : YES
+Same Side To Move        : YES
+Same Hardware            : YES
+Same Unity Runtime       : YES
+History                  : ENABLED
+Killer                   : ENABLED
+TT                       : ENABLED
+Aspiration               : ENABLED
+Depth 2/3 Comparison     : True
+Depth 3/4 Comparison     : True
+==================================================
+
+==================================================
+Controllers remain disabled.
+AI BENCHMARK FINISHED
+==================================================

@@ -1,0 +1,575 @@
+﻿
+==================================================
+1 ABLATION BENCHMARK | DEPTH 2
+==================================================
+BASELINE
+    
++ HISTORY
+    
++ KILLER
+    
++ TT
+    
++ ASPIRATION
+
+
+--------------------------------------------------
+BASELINE | DEPTH 2
+--------------------------------------------------
+
+SUMMARY | BASELINE | DEPTH 2
+Positions Tested          : 20
+Average Nodes             : 1915.75
+Average Leaf Nodes        : 351.15
+Average Search Time       : 0.090379s
+Sample SD Search Time     : 0.088606s
+95% CI Search Time        : ±0.041469s
+Sample SD Nodes           : 1028.28
+95% CI Nodes              : ±481.24
+Aggregate NPS             : 21197
+TT Hits                   : 0
+TT Misses                 : 0
+TT Hit Rate               : 0.00%
+Average Cutoffs           : 1104.75
+Cutoff Rate               : 57.67%
+Average PV Length         : 2.00
+PV Completeness           : 100.00%
+Completed Depth Success   : 20/20
+Completed Depth Mismatch  : 0
+Aspiration Attempts       : 0
+Aspiration Fail High      : 0
+Aspiration Fail Low       : 0
+Aspiration Re-search      : 0
+Avg Aspiration Attempts   : 0.00
+Aspiration Re-search Rate : 0.00%
+Aspiration Success Rate   : 0.00%
+
+--------------------------------------------------
++ HISTORY | DEPTH 2
+--------------------------------------------------
+
+SUMMARY | + HISTORY | DEPTH 2
+Positions Tested          : 20
+Average Nodes             : 1902.20
+Average Leaf Nodes        : 348.55
+Average Search Time       : 0.092007s
+Sample SD Search Time     : 0.092562s
+95% CI Search Time        : ±0.043320s
+Sample SD Nodes           : 1010.35
+95% CI Nodes              : ±472.85
+Aggregate NPS             : 20675
+TT Hits                   : 0
+TT Misses                 : 0
+TT Hit Rate               : 0.00%
+Average Cutoffs           : 1098.70
+Cutoff Rate               : 57.76%
+Average PV Length         : 2.00
+PV Completeness           : 100.00%
+Completed Depth Success   : 20/20
+Completed Depth Mismatch  : 0
+Aspiration Attempts       : 0
+Aspiration Fail High      : 0
+Aspiration Fail Low       : 0
+Aspiration Re-search      : 0
+Avg Aspiration Attempts   : 0.00
+Aspiration Re-search Rate : 0.00%
+Aspiration Success Rate   : 0.00%
+
+--------------------------------------------------
++ KILLER | DEPTH 2
+--------------------------------------------------
+
+SUMMARY | + KILLER | DEPTH 2
+Positions Tested          : 20
+Average Nodes             : 1901.45
+Average Leaf Nodes        : 348.55
+Average Search Time       : 0.093972s
+Sample SD Search Time     : 0.089388s
+95% CI Search Time        : ±0.041834s
+Sample SD Nodes           : 1010.76
+95% CI Nodes              : ±473.05
+Aggregate NPS             : 20234
+TT Hits                   : 0
+TT Misses                 : 0
+TT Hit Rate               : 0.00%
+Average Cutoffs           : 1097.85
+Cutoff Rate               : 57.74%
+Average PV Length         : 2.00
+PV Completeness           : 100.00%
+Completed Depth Success   : 20/20
+Completed Depth Mismatch  : 0
+Aspiration Attempts       : 0
+Aspiration Fail High      : 0
+Aspiration Fail Low       : 0
+Aspiration Re-search      : 0
+Avg Aspiration Attempts   : 0.00
+Aspiration Re-search Rate : 0.00%
+Aspiration Success Rate   : 0.00%
+
+--------------------------------------------------
++ TT | DEPTH 2
+--------------------------------------------------
+
+SUMMARY | + TT | DEPTH 2
+Positions Tested          : 20
+Average Nodes             : 1792.35
+Average Leaf Nodes        : 337.35
+Average Search Time       : 0.089771s
+Sample SD Search Time     : 0.090101s
+95% CI Search Time        : ±0.042168s
+Sample SD Nodes           : 1058.56
+95% CI Nodes              : ±495.42
+Aggregate NPS             : 19966
+TT Hits                   : 0
+TT Misses                 : 1030
+TT Hit Rate               : 0.00%
+Average Cutoffs           : 1043.20
+Cutoff Rate               : 58.20%
+Average PV Length         : 2.00
+PV Completeness           : 100.00%
+Completed Depth Success   : 20/20
+Completed Depth Mismatch  : 0
+Aspiration Attempts       : 0
+Aspiration Fail High      : 0
+Aspiration Fail Low       : 0
+Aspiration Re-search      : 0
+Avg Aspiration Attempts   : 0.00
+Aspiration Re-search Rate : 0.00%
+Aspiration Success Rate   : 0.00%
+
+--------------------------------------------------
++ ASPIRATION | DEPTH 2
+--------------------------------------------------
+
+SUMMARY | + ASPIRATION | DEPTH 2
+Positions Tested          : 20
+Average Nodes             : 1788.55
+Average Leaf Nodes        : 309.60
+Average Search Time       : 0.086098s
+Sample SD Search Time     : 0.052520s
+95% CI Search Time        : ±0.024580s
+Sample SD Nodes           : 873.68
+95% CI Nodes              : ±408.89
+Aggregate NPS             : 20773
+TT Hits                   : 369
+TT Misses                 : 1030
+TT Hit Rate               : 26.38%
+Average Cutoffs           : 1072.25
+Cutoff Rate               : 59.95%
+Average PV Length         : 2.00
+PV Completeness           : 100.00%
+Completed Depth Success   : 20/20
+Completed Depth Mismatch  : 0
+Aspiration Attempts       : 27
+Aspiration Fail High      : 0
+Aspiration Fail Low       : 7
+Aspiration Re-search      : 7
+Avg Aspiration Attempts   : 1.35
+Aspiration Re-search Rate : 25.93%
+Aspiration Success Rate   : 74.07%
+
+==================================================
+1 ABLATION BENCHMARK | DEPTH 3
+==================================================
+BASELINE
+    
++ HISTORY
+    
++ KILLER
+    
++ TT
+    
++ ASPIRATION
+
+
+--------------------------------------------------
+BASELINE | DEPTH 3
+--------------------------------------------------
+
+SUMMARY | BASELINE | DEPTH 3
+Positions Tested          : 20
+Average Nodes             : 14320.80
+Average Leaf Nodes        : 1956.25
+Average Search Time       : 0.569637s
+Sample SD Search Time     : 0.446058s
+95% CI Search Time        : ±0.208759s
+Sample SD Nodes           : 7804.43
+95% CI Nodes              : ±3652.54
+Aggregate NPS             : 25140
+TT Hits                   : 0
+TT Misses                 : 0
+TT Hit Rate               : 0.00%
+Average Cutoffs           : 7577.75
+Cutoff Rate               : 52.91%
+Average PV Length         : 3.00
+PV Completeness           : 100.00%
+Completed Depth Success   : 20/20
+Completed Depth Mismatch  : 0
+Aspiration Attempts       : 0
+Aspiration Fail High      : 0
+Aspiration Fail Low       : 0
+Aspiration Re-search      : 0
+Avg Aspiration Attempts   : 0.00
+Aspiration Re-search Rate : 0.00%
+Aspiration Success Rate   : 0.00%
+
+--------------------------------------------------
++ HISTORY | DEPTH 3
+--------------------------------------------------
+
+SUMMARY | + HISTORY | DEPTH 3
+Positions Tested          : 20
+Average Nodes             : 13040.30
+Average Leaf Nodes        : 1773.20
+Average Search Time       : 0.549664s
+Sample SD Search Time     : 0.283842s
+95% CI Search Time        : ±0.132841s
+Sample SD Nodes           : 5850.09
+95% CI Nodes              : ±2737.89
+Aggregate NPS             : 23724
+TT Hits                   : 0
+TT Misses                 : 0
+TT Hit Rate               : 0.00%
+Average Cutoffs           : 6894.90
+Cutoff Rate               : 52.87%
+Average PV Length         : 3.00
+PV Completeness           : 100.00%
+Completed Depth Success   : 20/20
+Completed Depth Mismatch  : 0
+Aspiration Attempts       : 0
+Aspiration Fail High      : 0
+Aspiration Fail Low       : 0
+Aspiration Re-search      : 0
+Avg Aspiration Attempts   : 0.00
+Aspiration Re-search Rate : 0.00%
+Aspiration Success Rate   : 0.00%
+
+--------------------------------------------------
++ KILLER | DEPTH 3
+--------------------------------------------------
+
+SUMMARY | + KILLER | DEPTH 3
+Positions Tested          : 20
+Average Nodes             : 13046.65
+Average Leaf Nodes        : 1768.90
+Average Search Time       : 0.494169s
+Sample SD Search Time     : 0.316784s
+95% CI Search Time        : ±0.148258s
+Sample SD Nodes           : 5857.88
+95% CI Nodes              : ±2741.54
+Aggregate NPS             : 26401
+TT Hits                   : 0
+TT Misses                 : 0
+TT Hit Rate               : 0.00%
+Average Cutoffs           : 6907.45
+Cutoff Rate               : 52.94%
+Average PV Length         : 3.00
+PV Completeness           : 100.00%
+Completed Depth Success   : 20/20
+Completed Depth Mismatch  : 0
+Aspiration Attempts       : 0
+Aspiration Fail High      : 0
+Aspiration Fail Low       : 0
+Aspiration Re-search      : 0
+Avg Aspiration Attempts   : 0.00
+Aspiration Re-search Rate : 0.00%
+Aspiration Success Rate   : 0.00%
+
+--------------------------------------------------
++ TT | DEPTH 3
+--------------------------------------------------
+
+SUMMARY | + TT | DEPTH 3
+Positions Tested          : 20
+Average Nodes             : 10510.60
+Average Leaf Nodes        : 1228.20
+Average Search Time       : 0.398664s
+Sample SD Search Time     : 0.239186s
+95% CI Search Time        : ±0.111941s
+Sample SD Nodes           : 3862.76
+95% CI Nodes              : ±1807.81
+Aggregate NPS             : 26365
+TT Hits                   : 1032
+TT Misses                 : 3380
+TT Hit Rate               : 23.39%
+Average Cutoffs           : 5591.90
+Cutoff Rate               : 53.20%
+Average PV Length         : 3.00
+PV Completeness           : 100.00%
+Completed Depth Success   : 20/20
+Completed Depth Mismatch  : 0
+Aspiration Attempts       : 0
+Aspiration Fail High      : 0
+Aspiration Fail Low       : 0
+Aspiration Re-search      : 0
+Avg Aspiration Attempts   : 0.00
+Aspiration Re-search Rate : 0.00%
+Aspiration Success Rate   : 0.00%
+
+--------------------------------------------------
++ ASPIRATION | DEPTH 3
+--------------------------------------------------
+
+SUMMARY | + ASPIRATION | DEPTH 3
+Positions Tested          : 20
+Average Nodes             : 10333.00
+Average Leaf Nodes        : 1149.90
+Average Search Time       : 0.381997s
+Sample SD Search Time     : 0.181452s
+95% CI Search Time        : ±0.084921s
+Sample SD Nodes           : 3613.71
+95% CI Nodes              : ±1691.25
+Aggregate NPS             : 27050
+TT Hits                   : 1684
+TT Misses                 : 3347
+TT Hit Rate               : 33.47%
+Average Cutoffs           : 5565.00
+Cutoff Rate               : 53.86%
+Average PV Length         : 3.00
+PV Completeness           : 100.00%
+Completed Depth Success   : 20/20
+Completed Depth Mismatch  : 0
+Aspiration Attempts       : 53
+Aspiration Fail High      : 6
+Aspiration Fail Low       : 7
+Aspiration Re-search      : 13
+Avg Aspiration Attempts   : 2.65
+Aspiration Re-search Rate : 24.53%
+Aspiration Success Rate   : 75.47%
+
+==================================================
+1 ABLATION BENCHMARK | DEPTH 4
+==================================================
+BASELINE
+    
++ HISTORY
+    
++ KILLER
+    
++ TT
+    
++ ASPIRATION
+
+
+--------------------------------------------------
+BASELINE | DEPTH 4
+--------------------------------------------------
+
+SUMMARY | BASELINE | DEPTH 4
+Positions Tested          : 20
+Average Nodes             : 83464.55
+Average Leaf Nodes        : 9865.85
+Average Search Time       : 3.544704s
+Sample SD Search Time     : 2.959177s
+95% CI Search Time        : ±1.384921s
+Sample SD Nodes           : 65036.19
+95% CI Nodes              : ±30437.52
+Aggregate NPS             : 23546
+TT Hits                   : 0
+TT Misses                 : 0
+TT Hit Rate               : 0.00%
+Average Cutoffs           : 49533.00
+Cutoff Rate               : 59.35%
+Average PV Length         : 4.00
+PV Completeness           : 100.00%
+Completed Depth Success   : 20/20
+Completed Depth Mismatch  : 0
+Aspiration Attempts       : 0
+Aspiration Fail High      : 0
+Aspiration Fail Low       : 0
+Aspiration Re-search      : 0
+Avg Aspiration Attempts   : 0.00
+Aspiration Re-search Rate : 0.00%
+Aspiration Success Rate   : 0.00%
+
+--------------------------------------------------
++ HISTORY | DEPTH 4
+--------------------------------------------------
+
+SUMMARY | + HISTORY | DEPTH 4
+Positions Tested          : 20
+Average Nodes             : 69140.55
+Average Leaf Nodes        : 6730.90
+Average Search Time       : 2.907522s
+Sample SD Search Time     : 1.556933s
+95% CI Search Time        : ±0.728659s
+Sample SD Nodes           : 37347.78
+95% CI Nodes              : ±17479.10
+Aggregate NPS             : 23780
+TT Hits                   : 0
+TT Misses                 : 0
+TT Hit Rate               : 0.00%
+Average Cutoffs           : 41985.25
+Cutoff Rate               : 60.72%
+Average PV Length         : 4.00
+PV Completeness           : 100.00%
+Completed Depth Success   : 20/20
+Completed Depth Mismatch  : 0
+Aspiration Attempts       : 0
+Aspiration Fail High      : 0
+Aspiration Fail Low       : 0
+Aspiration Re-search      : 0
+Avg Aspiration Attempts   : 0.00
+Aspiration Re-search Rate : 0.00%
+Aspiration Success Rate   : 0.00%
+
+--------------------------------------------------
++ KILLER | DEPTH 4
+--------------------------------------------------
+
+SUMMARY | + KILLER | DEPTH 4
+Positions Tested          : 20
+Average Nodes             : 68698.75
+Average Leaf Nodes        : 6736.60
+Average Search Time       : 3.226781s
+Sample SD Search Time     : 1.690600s
+95% CI Search Time        : ±0.791216s
+Sample SD Nodes           : 36164.26
+95% CI Nodes              : ±16925.20
+Aggregate NPS             : 21290
+TT Hits                   : 0
+TT Misses                 : 0
+TT Hit Rate               : 0.00%
+Average Cutoffs           : 41631.35
+Cutoff Rate               : 60.60%
+Average PV Length         : 4.00
+PV Completeness           : 100.00%
+Completed Depth Success   : 20/20
+Completed Depth Mismatch  : 0
+Aspiration Attempts       : 0
+Aspiration Fail High      : 0
+Aspiration Fail Low       : 0
+Aspiration Re-search      : 0
+Avg Aspiration Attempts   : 0.00
+Aspiration Re-search Rate : 0.00%
+Aspiration Success Rate   : 0.00%
+
+--------------------------------------------------
++ TT | DEPTH 4
+--------------------------------------------------
+
+SUMMARY | + TT | DEPTH 4
+Positions Tested          : 20
+Average Nodes             : 49670.10
+Average Leaf Nodes        : 5300.40
+Average Search Time       : 2.521227s
+Sample SD Search Time     : 2.353828s
+95% CI Search Time        : ±1.101613s
+Sample SD Nodes           : 37505.12
+95% CI Nodes              : ±17552.73
+Aggregate NPS             : 19701
+TT Hits                   : 12172
+TT Misses                 : 45103
+TT Hit Rate               : 21.25%
+Average Cutoffs           : 30163.05
+Cutoff Rate               : 60.73%
+Average PV Length         : 4.00
+PV Completeness           : 100.00%
+Completed Depth Success   : 20/20
+Completed Depth Mismatch  : 0
+Aspiration Attempts       : 0
+Aspiration Fail High      : 0
+Aspiration Fail Low       : 0
+Aspiration Re-search      : 0
+Avg Aspiration Attempts   : 0.00
+Aspiration Re-search Rate : 0.00%
+Aspiration Success Rate   : 0.00%
+
+--------------------------------------------------
++ ASPIRATION | DEPTH 4
+--------------------------------------------------
+
+SUMMARY | + ASPIRATION | DEPTH 4
+Positions Tested          : 20
+Average Nodes             : 49210.55
+Average Leaf Nodes        : 5093.50
+Average Search Time       : 2.331449s
+Sample SD Search Time     : 1.846163s
+95% CI Search Time        : ±0.864021s
+Sample SD Nodes           : 35858.52
+95% CI Nodes              : ±16782.11
+Aggregate NPS             : 21107
+TT Hits                   : 17677
+TT Misses                 : 45154
+TT Hit Rate               : 28.13%
+Average Cutoffs           : 30253.55
+Cutoff Rate               : 61.48%
+Average PV Length         : 4.00
+PV Completeness           : 100.00%
+Completed Depth Success   : 20/20
+Completed Depth Mismatch  : 0
+Aspiration Attempts       : 81
+Aspiration Fail High      : 7
+Aspiration Fail Low       : 14
+Aspiration Re-search      : 21
+Avg Aspiration Attempts   : 4.05
+Aspiration Re-search Rate : 25.93%
+Aspiration Success Rate   : 74.07%
+
+==================================================
+So sánh mức độ cắt bỏ tích lũy
+==================================================
+
+DEPTH 2
+--------------------------------------------------
+BASELINE        | Nodes=1915.75 | Time=0.090379s | NPS=21197 | Node Δ=N/A | Time Δ=N/A
+                | TT=0.00% | Cutoff=57.67% | PV=2.00
++ HISTORY       | Nodes=1902.20 | Time=0.092007s | NPS=20675 | Node Δ=0.71% | Time Δ=-1.80%
+                | TT=0.00% | Cutoff=57.76% | PV=2.00
++ KILLER        | Nodes=1901.45 | Time=0.093972s | NPS=20234 | Node Δ=0.04% | Time Δ=-2.14%
+                | TT=0.00% | Cutoff=57.74% | PV=2.00
++ TT            | Nodes=1792.35 | Time=0.089771s | NPS=19966 | Node Δ=5.74% | Time Δ=4.47%
+                | TT=0.00% | Cutoff=58.20% | PV=2.00
++ ASPIRATION    | Nodes=1788.55 | Time=0.086098s | NPS=20773 | Node Δ=0.21% | Time Δ=4.09%
+                | TT=26.38% | Cutoff=59.95% | PV=2.00
+                | Asp Attempts=1.35 | Asp Re-search=25.93% | Asp Success=74.07%
+
+DEPTH 3
+--------------------------------------------------
+BASELINE        | Nodes=14320.80 | Time=0.569637s | NPS=25140 | Node Δ=N/A | Time Δ=N/A
+                | TT=0.00% | Cutoff=52.91% | PV=3.00
++ HISTORY       | Nodes=13040.30 | Time=0.549664s | NPS=23724 | Node Δ=8.94% | Time Δ=3.51%
+                | TT=0.00% | Cutoff=52.87% | PV=3.00
++ KILLER        | Nodes=13046.65 | Time=0.494169s | NPS=26401 | Node Δ=-0.05% | Time Δ=10.10%
+                | TT=0.00% | Cutoff=52.94% | PV=3.00
++ TT            | Nodes=10510.60 | Time=0.398664s | NPS=26365 | Node Δ=19.44% | Time Δ=19.33%
+                | TT=23.39% | Cutoff=53.20% | PV=3.00
++ ASPIRATION    | Nodes=10333.00 | Time=0.381997s | NPS=27050 | Node Δ=1.69% | Time Δ=4.18%
+                | TT=33.47% | Cutoff=53.86% | PV=3.00
+                | Asp Attempts=2.65 | Asp Re-search=24.53% | Asp Success=75.47%
+
+DEPTH 4
+--------------------------------------------------
+BASELINE        | Nodes=83464.55 | Time=3.544704s | NPS=23546 | Node Δ=N/A | Time Δ=N/A
+                | TT=0.00% | Cutoff=59.35% | PV=4.00
++ HISTORY       | Nodes=69140.55 | Time=2.907522s | NPS=23780 | Node Δ=17.16% | Time Δ=17.98%
+                | TT=0.00% | Cutoff=60.72% | PV=4.00
++ KILLER        | Nodes=68698.75 | Time=3.226781s | NPS=21290 | Node Δ=0.64% | Time Δ=-10.98%
+                | TT=0.00% | Cutoff=60.60% | PV=4.00
++ TT            | Nodes=49670.10 | Time=2.521227s | NPS=19701 | Node Δ=27.70% | Time Δ=21.87%
+                | TT=21.25% | Cutoff=60.73% | PV=4.00
++ ASPIRATION    | Nodes=49210.55 | Time=2.331449s | NPS=21107 | Node Δ=0.93% | Time Δ=7.53%
+                | TT=28.13% | Cutoff=61.48% | PV=4.00
+                | Asp Attempts=4.05 | Asp Re-search=25.93% | Asp Success=74.07%
+
+==================================================
+INTERPRETATION
+==================================================
+- Baseline uses plain iterative-deepening alpha-beta search.
+- + History adds the history heuristic for move ordering.
+- + Killer adds killer-move ordering on top of History.
+- + TT adds the transposition table on top of History + Killer.
+- + Aspiration adds aspiration-window search on top of the previous configuration.
+- Each stage keeps the same benchmark positions and search depth.
+- Node and time differences are measured incrementally against the immediately preceding stage.
+- TT Hit Rate measures the proportion of TT lookups that were hits.
+- PV Completeness measures whether the reported principal variation reaches the completed search depth.
+- Aspiration Re-search Rate measures the proportion of aspiration attempts that required another search.
+- Aspiration Success Rate measures the proportion of aspiration attempts completed without re-search.
+- A positive node/time reduction indicates an efficiency improvement relative to the preceding configuration.
+- A negative reduction indicates that the added technique increased measured search cost for that stage.
+
+==================================================
+Controllers remain disabled.
+AI BENCHMARK FINISHED
+==================================================

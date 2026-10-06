@@ -1,0 +1,168 @@
+﻿
+==================================================
+AI BENCHMARK 7.8
+COMPETITIVE SEARCH-DEPTH EVALUATION
+PLAYING STRENGTH / DEPTH SENSITIVITY
+==================================================
+Random Positions        : 10
+Random Opening Plies    : 8
+Random Seed             : 20260912
+Maximum Plies / Game    : 100
+Depth Configuration     : D2, D3, D4
+AI Configuration        : + HISTORY + KILLER + TT + ASPIRATION
+Controlled Variables    : Same Position + Same AI + Same Rules
+Experimental Variable   : SEARCH DEPTH
+Position Generation     : RANDOMIZED
+Paired Game Design      : Two games with depth-side swapping
+Primary Comparison      : DEPTH, NOT COLOR
+Depth Pairings          : D2-D3 | D3-D4 | D2-D4
+==================================================
+
+==================================================
+7.8 DEPTH MATCHUP | D2 VS D3
+==================================================
+Positions Tested        : 10
+Games / Position        : 2
+Expected Games          : 20
+Lower Search Depth      : D2
+Higher Search Depth     : D3
+Comparison Unit         : SEARCH DEPTH
+Color Effects           : CONTROLLED BY SIDE SWAP
+Paired Design           : SAME POSITION
+
+
+=============== D2 VS D3 RESULTS ===============
+Lower Depth             : D2
+Higher Depth            : D3
+Completed Games         : 20
+Higher Depth Wins       : 13
+Lower Depth Wins        : 1
+Draws                   : 6
+Higher Depth Win Rate   : 65.00%
+Lower Depth Win Rate    : 5.00%
+Draw Rate               : 30.00%
+Higher Depth Score Rate : 80.00%
+Average Game Length     : 75.90 plies
+Average Search Time     : 12.220428s
+Average Game Time       : 12.777944s
+Average Nodes / Game    : 331518.30
+Aggregate Search NPS    : 27128
+Paired Position Count   : 10
+Side-Balanced Games     : 20
+Both Higher Depth Win   : 3
+Split Outcome           : 7
+Both Lower Depth Win    : 0
+Both Draw               : 0
+
+==================================================
+7.8 DEPTH MATCHUP | D3 VS D4
+==================================================
+Positions Tested        : 10
+Games / Position        : 2
+Expected Games          : 20
+Lower Search Depth      : D3
+Higher Search Depth     : D4
+Comparison Unit         : SEARCH DEPTH
+Color Effects           : CONTROLLED BY SIDE SWAP
+Paired Design           : SAME POSITION
+
+
+=============== D3 VS D4 RESULTS ===============
+Lower Depth             : D3
+Higher Depth            : D4
+Completed Games         : 20
+Higher Depth Wins       : 12
+Lower Depth Wins        : 4
+Draws                   : 4
+Higher Depth Win Rate   : 60.00%
+Lower Depth Win Rate    : 20.00%
+Draw Rate               : 20.00%
+Higher Depth Score Rate : 70.00%
+Average Game Length     : 74.10 plies
+Average Search Time     : 49.324233s
+Average Game Time       : 49.698610s
+Average Nodes / Game    : 1235919.30
+Aggregate Search NPS    : 25057
+Paired Position Count   : 10
+Side-Balanced Games     : 20
+Both Higher Depth Win   : 2
+Split Outcome           : 8
+Both Lower Depth Win    : 0
+Both Draw               : 0
+
+==================================================
+7.8 DEPTH MATCHUP | D2 VS D4
+==================================================
+Positions Tested        : 10
+Games / Position        : 2
+Expected Games          : 20
+Lower Search Depth      : D2
+Higher Search Depth     : D4
+Comparison Unit         : SEARCH DEPTH
+Color Effects           : CONTROLLED BY SIDE SWAP
+Paired Design           : SAME POSITION
+
+
+=============== D2 VS D4 RESULTS ===============
+Lower Depth             : D2
+Higher Depth            : D4
+Completed Games         : 20
+Higher Depth Wins       : 10
+Lower Depth Wins        : 0
+Draws                   : 10
+Higher Depth Win Rate   : 50.00%
+Lower Depth Win Rate    : 0.00%
+Draw Rate               : 50.00%
+Higher Depth Score Rate : 75.00%
+Average Game Length     : 79.85 plies
+Average Search Time     : 54.909338s
+Average Game Time       : 55.412166s
+Average Nodes / Game    : 1304658.75
+Aggregate Search NPS    : 23760
+Paired Position Count   : 10
+Side-Balanced Games     : 20
+Both Higher Depth Win   : 2
+Split Outcome           : 6
+Both Lower Depth Win    : 0
+Both Draw               : 2
+
+==================================================
+7.8 OVERALL DEPTH COMPARISON
+==================================================
+D2 VS D3     | Games=20 | HigherWin=65.00% | LowerWin=5.00% | Draw=30.00% | Score=80.00% | AvgPlies=75.90 | Nodes=331518 | SearchTime=12.2204s | NPS=27128
+               | Paired=10 | BothHigher=3 | Split=7 | BothLower=0 | BothDraw=0
+D3 VS D4     | Games=20 | HigherWin=60.00% | LowerWin=20.00% | Draw=20.00% | Score=70.00% | AvgPlies=74.10 | Nodes=1235919 | SearchTime=49.3242s | NPS=25057
+               | Paired=10 | BothHigher=2 | Split=8 | BothLower=0 | BothDraw=0
+D2 VS D4     | Games=20 | HigherWin=50.00% | LowerWin=0.00% | Draw=50.00% | Score=75.00% | AvgPlies=79.85 | Nodes=1304659 | SearchTime=54.9093s | NPS=23760
+               | Paired=10 | BothHigher=2 | Split=6 | BothLower=0 | BothDraw=2
+
+==================================================
+7.8 INTERPRETATION
+==================================================
+- Benchmark 7.8 evaluates playing strength as a function of search depth.
+- All compared agents use the same Final AI configuration.
+- History, Killer Move, Transposition Table and Aspiration Window remain enabled.
+- The controlled experimental variable is search depth.
+- Multiple randomized positions reduce dependence on a single starting position.
+- Each depth matchup reuses the same randomized position set.
+- When side swapping is enabled, each position is evaluated twice with opposite depth-side assignments.
+- Therefore the primary comparison is based on search depth rather than color.
+- D2-D3 measures the competitive effect of increasing search depth from 2 to 3.
+- D3-D4 measures the competitive effect of increasing search depth from 3 to 4.
+- D2-D4 measures the cumulative competitive difference between shallow and deeper search.
+- A higher score rate for the deeper search indicates a competitive advantage associated with greater search depth.
+- Both-higher outcomes indicate that the deeper search won both side assignments for the same position.
+- Both-lower outcomes indicate that the shallower search won both paired games.
+- Split outcomes indicate that the result changed after depth-side assignment was reversed.
+- Both-draw outcomes indicate no decisive result in either side assignment.
+- Average search time and node count quantify the computational cost of deeper search.
+- D2-D3 higher-depth score rate: 80.00%.
+- D3-D4 higher-depth score rate: 70.00%.
+- D2-D4 higher-depth score rate: 75.00%.
+==================================================
+==================================================
+
+==================================================
+Controllers remain disabled.
+AI BENCHMARK FINISHED
+==================================================
